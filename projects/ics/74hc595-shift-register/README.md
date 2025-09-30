@@ -1,7 +1,7 @@
 # 74HC595 Shift Register (with Arduino)
 
 This project counts from 0 to 255 in binary using 8 LEDs controlled by a 74HC595 shift register.
-Each LED represents one bit of the binary number, and the count increments every 500ms (or a configurable interval), demonstrating how a shift register can expand the output pins of an Arduino.
+Each LED represents one bit of the binary number, and the count increments every 200ms (or a configurable interval), demonstrating how a shift register can expand the output pins of an Arduino.
 
 ---
 
@@ -22,7 +22,7 @@ Each LED represents one bit of the binary number, and the count increments every
 | 1x       | 74HC595 IC                | Shift register                 |
 | 8x       | LEDs                      | Any color                      |
 | 8x       | Resistors                 | 200Ω                           |
-| 1x       | Breadborad                | For component connections      |
+| 1x       | Breadboard                | For component connections      |
 | -        | Jumper wires              | For connections on breadboard  |
 
 ---
